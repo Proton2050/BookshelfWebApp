@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    font-size:x-large;
+    color: darkgoldenrod;
+    background-color:rgb(57, 56, 56);
+    width: 100vw;
+}
+#library-name {
+    padding-left: 20px;
+    align-self: center;
+    font-weight: bold;
+}
+#menu {
+    list-style-type: none;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-link {
+    padding-right: 40px;
+    color: lightslategray;
+    text-decoration: none;
+    font-size: 15px;
+}
+.menu-link:hover {
+      text-decoration: underline;
+}
+.collectionHead {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search {
+    padding-right: 20px;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    background-image: url("img/wood.jpg");
+    background-repeat: repeat;
+}
+.books {
+    display: flex;
+    flex-direction: column;
+}
+.book {
+    background-color: rgb(2, 51, 2);
+    color:darkgoldenrod;
+    box-sizing: border-box;
+    width: 200px;
+    height: 280px;
+    margin: 20px;;
+    padding: 10px;
+    box-shadow: 5px 10px 5px #000000;
+}
+.book:hover {
+    filter: brightness(150%);
+}
+h3 {
+    color: darkgoldenrod;
+    text-shadow: 4px 4px #000000;
+}
+.comments {
+    align-self: flex-end;
+}
+p {
+    font-size: xx-small;
+}
+.shelf {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+.book {
+    position: relative;
+}
+.book .material-symbols-outlined {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 28
+  }
+.favorite {
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 200,
+    'GRAD' 0,
+    'opsz' 28
+}
